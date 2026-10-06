@@ -12,5 +12,8 @@ phone_number = input("Enter your phone #: ")
 #result = phone_number.count("-") # counts how many times a character shows up in a string
 phone_number = phone_number.replace("-", " ") # replace characters
 
-
 print(phone_number)
+
+
+
+print(help(str))  #says more about sring methods
