@@ -11,8 +11,8 @@
 #     print(x)
 
 
-for x in range (1, 21):             #this works for skipping over a number, can also break instead of continue
-    if x == 13:
-        continue
-    else:
-        print(x)
+# for x in range (1, 21):             #this works for skipping over a number, can also break instead of continue
+#     if x == 13:
+#         continue
+#     else:
+#         print(x)
