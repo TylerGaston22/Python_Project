@@ -1,9 +1,11 @@
-# logical operators = evalutate multiple conditions (or, and, not)
-#                     or = at least one condition must be True
-#                     and = both conditions must be True
-#                     not = incerts the condition (not False, not True)
+# 14 - Logical operators
+# Logical operators evaluate multiple conditions (or, and, not)
+#   or  = at least one condition must be True
+#   and = both conditions must be True
+#   not = inverts the condition (not False, not True)
 
 
+# --- Example 1: or ---
 # temp = 35
 # is_raining = False
 
@@ -12,6 +14,8 @@
 # else:
 #     print("The outdoor event is still scheduled")
 
+
+# --- Example 2: and ---
 temp = 20
 is_sunny = True
 

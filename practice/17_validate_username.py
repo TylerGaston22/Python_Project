@@ -1,4 +1,4 @@
-# validate user input excercise
+# 17 - Validate user input exercise
 # 1. username is no more than 12 characters
 # 2. username must not contain spaces
 # 3. username must not contain digits
@@ -15,4 +15,3 @@ elif not username.isalpha():
     print("Your username can't contain numbers")
 else:
     print(f"Welcome {username}")
-

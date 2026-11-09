@@ -1,19 +1,21 @@
-#name  = input("Enter your full name: ")
+# 16 - String methods
+# Built-in functions you can call on a string with a dot: name.upper()
+
+# name = input("Enter your full name: ")
 phone_number = input("Enter your phone #: ")
 
-#result = len(name)
-# result = name.find(" ") #uses index of zero
-# result = name.rfind("o") #finds the last occurabnce 
+# result = len(name)
+# result = name.find(" ")               # uses index of zero
+# result = name.rfind("o")              # finds the last occurrence
 # name = name.capitalize()
-#name = name.upper()
-#name = name.lower()
-#result = name.isdigit() # is the string all digits?
-#result = name.isalpha() # is the string all alphabet characters?
-#result = phone_number.count("-") # counts how many times a character shows up in a string
-phone_number = phone_number.replace("-", " ") # replace characters
+# name = name.upper()
+# name = name.lower()
+# result = name.isdigit()               # is the string all digits?
+# result = name.isalpha()               # is the string all alphabet characters?
+# result = phone_number.count("-")      # counts how many times a character shows up in a string
+phone_number = phone_number.replace("-", " ")   # replace characters
 
 print(phone_number)
 
 
-
-print(help(str))  #says more about sring methods
+print(help(str))  # says more about string methods

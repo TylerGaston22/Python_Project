@@ -1,3 +1,6 @@
+# 13 - Temperature conversion
+# Convert Celsius to Fahrenheit, or Fahrenheit to Celsius.
+
 unit = input("Is this termperature in Celsius or Fahrenheit (C/F)): ")
 temp = float(input("Enter the temperature: "))
 

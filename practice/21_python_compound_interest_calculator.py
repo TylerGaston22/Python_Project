@@ -1,4 +1,5 @@
-# Python compound interest calculator
+# 21 - Python compound interest calculator
+# Each while loop keeps asking until the user enters a value that isn't negative.
 
 principle = 0
 rate = 0
